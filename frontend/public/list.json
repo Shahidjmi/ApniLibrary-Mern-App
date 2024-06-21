@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing",
+        "price": "0.00",
+        "cotegory":"free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1717765564~exp=1717769164~hmac=c245f544030e829362771a5a66cc416b9a451012dbccbc7afc5eddf8ad3031ae&w=740"
+    },
+    {
+        "id": 2,
+        "name": "love Book",
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing",
+        "price": "0.00",
+        "cotegory":"free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1717765564~exp=1717769164~hmac=c245f544030e829362771a5a66cc416b9a451012dbccbc7afc5eddf8ad3031ae&w=740"
+    },
+    {
+        "id": 3,
+        "name": "Drama Book",
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing",
+        "price": "5000 $",
+        "cotegory":"paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1717765564~exp=1717769164~hmac=c245f544030e829362771a5a66cc416b9a451012dbccbc7afc5eddf8ad3031ae&w=740"
+    },
+    {
+        "id": 4,
+        "name": "Hate Book",
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing",
+        "price": "0.00",
+        "cotegory":"free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1717765564~exp=1717769164~hmac=c245f544030e829362771a5a66cc416b9a451012dbccbc7afc5eddf8ad3031ae&w=740"
+    },
+    {
+        "id": 5,
+        "name": "Comedy Book",
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing",
+        "price": "0.00",
+        "cotegory":"free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1717765564~exp=1717769164~hmac=c245f544030e829362771a5a66cc416b9a451012dbccbc7afc5eddf8ad3031ae&w=740"
+    },
+    {
+        "id": 6,
+        "name": "Javascript Book",
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing",
+        "price": "1000 $",
+        "cotegory":"paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1717765564~exp=1717769164~hmac=c245f544030e829362771a5a66cc416b9a451012dbccbc7afc5eddf8ad3031ae&w=740"
+    },
+    {
+        "id": 7,
+        "name": "Node Book",
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing",
+        "price": "0.00",
+        "cotegory":"free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1717765564~exp=1717769164~hmac=c245f544030e829362771a5a66cc416b9a451012dbccbc7afc5eddf8ad3031ae&w=740"
+    },
+    {
+        "id": 8,
+        "name": "React Book",
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing",
+        "price": "0.00",
+        "cotegory":"free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1717765564~exp=1717769164~hmac=c245f544030e829362771a5a66cc416b9a451012dbccbc7afc5eddf8ad3031ae&w=740"
+    },
+    {
+        "id": 9,
+        "name": "Jamuri Book",
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing",
+        "price": " rs 500",
+        "cotegory":"paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1717765564~exp=1717769164~hmac=c245f544030e829362771a5a66cc416b9a451012dbccbc7afc5eddf8ad3031ae&w=740"
+    },
+    {
+        "id": 10,
+        "name": "Backend Book",
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing",
+        "price": "0.00",
+        "cotegory":"free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1717765564~exp=1717769164~hmac=c245f544030e829362771a5a66cc416b9a451012dbccbc7afc5eddf8ad3031ae&w=740"
+    },
+    {
+        "id": 11,
+        "name": "Fullstack Book",
+        "title": "Lorem ipsum dolor sit, amet consectetur adipisicing",
+        "price": "10000 $",
+        "cotegory":"paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1717765564~exp=1717769164~hmac=c245f544030e829362771a5a66cc416b9a451012dbccbc7afc5eddf8ad3031ae&w=740"
+    }
+]
