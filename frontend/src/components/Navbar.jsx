@@ -2,9 +2,15 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Login from "./Login";
+import { useContext } from "react";
+import myContext from "../contextApi/context";
+import Logout from "./Logout";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
+
+  const {authUser, setAuthUser} = useContext(myContext);
+ 
 
   useEffect(() => {
     const handleScroll = () => {
@@ -90,9 +96,14 @@ const Navbar = () => {
             </label>
             
           </div>
+          {authUser ? <Logout/>:
+          <div>
           <a onClick={()=>{document.getElementById("my_modal_3").showModal()}} className="btn bg-black text-white hover:bg-blue-500 hover:text-black duration-300">Login
           </a>
             <Login/>
+          </div>
+          }
+          
         </div>
       </div>
     </div>

@@ -10,10 +10,7 @@ const Banner = () => {
             <span className="text-pink-400"> New everyday!!!</span>
           </h1>
           <p className="text-xl">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
-            aut, minima eligendi inventore voluptatem dignissimos quidem
-            sapiente repudiandae quisquam quaerat labore similique illum eveniet
-            aliquam!
+          Apni Library is your go-to digital haven for books, journals, and educational resources. We offer a diverse collection across various genres, catering to all age groups and interests. Whether you're a student, a researcher, or an avid reader, Apni Library provides easy access to knowledge and entertainment. Explore our extensive catalog, take advantage of our user-friendly interface, and dive into the world of reading from the comfort of your home. Join us in our mission to promote literacy!
           </p>
           <label className="input input-bordered flex items-center gap-2 w-full md:w-3/">
             <svg
@@ -28,7 +25,7 @@ const Banner = () => {
             <input type="text" className="grow" placeholder="Email" />
           </label>
         </div>
-        <button className="btn btn-outline btn-secondary mt-4">Secondary</button>
+        <button className="btn btn-outline btn-secondary mt-4">Get Started</button>
       </div>
       <div className="right w-full md:w-1/2 flex justify-center items-center mt-10 md:mt-24">
       <img src="/banner.jpg" className="w-96 h-96 rounded-2xl" alt="" />

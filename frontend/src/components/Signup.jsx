@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useForm } from "react-hook-form"
+import axios from "axios"
+import { useNavigate } from 'react-router-dom'
+import toast from 'react-hot-toast'
 
 const Signup = () => {
 
@@ -11,8 +14,33 @@ const Signup = () => {
     formState: { errors },
   } = useForm()
 
-  const onSubmit = (data) => {
-    console.log(data)
+  const navigate = useNavigate()
+
+  const onSubmit = async (data) => {
+    // console.log(data)
+    
+    const userInfo ={
+      username: data.username,
+      email: data.email,
+      password: data.password,
+    }
+    await axios.post("http://localhost:3000/user/signup", userInfo).then((res) => {
+      if(res.data){
+        console.log(res.data)
+        // alert(res.data.message)
+        toast.success("User registered successfully")
+      
+      }
+      localStorage.setItem("User", JSON.stringify(res.data.user))
+      navigate('/')
+
+    }).catch((err) => {
+      console.log("Error getting : ", err)
+      if(err){
+        toast.error(err.response.data.message)
+      }
+
+    });
   }
 
   return (

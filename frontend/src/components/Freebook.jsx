@@ -4,9 +4,20 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Cards from "./Cards";
+import axios from "axios"
+import { useState,useEffect } from "react";
 
 const Freebook = () => {
-  const freeBook = list.filter((book) => {
+  const[book, setBook] = useState([])
+  useEffect(() => {
+    axios.get('http://localhost:3000/book').then((res) => {
+      setBook(res.data)
+    }).catch((err)=>{
+      console.log(`Error getting book: ${err.massage}`)
+    })
+  })
+
+  const freeBook = book.filter((book) => {
     return book.cotegory === "free";
   });
 
@@ -40,6 +51,8 @@ const Freebook = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1500
         },
       },
     ],
@@ -52,8 +65,7 @@ const Freebook = () => {
       <div>
       <h1 className="font-semibold text-xl pb-4">Offered free books</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-          doloremque qui sint, molestiae quos impedit.
+        Discover a treasure trove of free books at Apni Library! We offer a vast selection of free titles across various genres, including classics, contemporary fiction, non-fiction, and educational materials. Our free books collection is available to everyone, providing easy access to knowledge and entertainment without any cost. Dive into our library and start reading today!
         </p>
       </div>
       <div className="slider-container m-5">
